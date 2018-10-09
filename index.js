@@ -35,3 +35,8 @@ function produceTipCalculator(percentTip) {
 /*
 createDriver is a function that returns a Driver class. The class has reference to a driverId that is incremented each time a new driver is created. The rest of the code base does not have access to driverId.
 */
+
+
+function createDriver() {
+  
+}
