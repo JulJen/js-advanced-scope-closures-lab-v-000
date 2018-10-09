@@ -38,5 +38,5 @@ createDriver is a function that returns a Driver class. The class has reference 
 
 
 function createDriver() {
-  
+  let driverId = 0;
 }
