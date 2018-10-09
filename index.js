@@ -39,4 +39,11 @@ createDriver is a function that returns a Driver class. The class has reference 
 
 function createDriver() {
   let driverId = 0;
+  //return the class
+  return class {
+    constructor(name) {
+      this.name = name;
+      this.id = ++driverId;
+    }
+  }
 }
